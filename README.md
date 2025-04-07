@@ -132,7 +132,14 @@ cd rainfall-prediction-kaggle
 
 Install dependencies:
 ```bash
-pip install -r requirements.txt
+# Core libraries
+pip install numpy pandas matplotlib seaborn scikit-learn scipy
+
+# Machine learning libraries (optional, but recommended)
+pip install lightgbm xgboost torch
+
+# Optional: for enhanced visualizations
+pip install plotly
 ```
 
 Run the notebook or execute the main() pipeline inside rainfall_prediction.ipynb.
